@@ -1,5 +1,7 @@
 from support_buddy.router import route_message
 from support_buddy.memory import MemoryStore
+from dotenv import load_dotenv
+load_dotenv()
 
 def main() -> None:
     print("Support Buddy 🤝 (type 'exit' to quit)")
